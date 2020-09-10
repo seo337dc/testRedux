@@ -28,7 +28,7 @@
 
 - action / actionCreator :
 
-  - action : store에 state를 변경하는 정보를 가진 것!!!
+  - action : store에 state를 변경하는 정보!!!
   - redux의 state를 직접 변경할 수 없다. 변경하는 방법은 action을 전달하는 것 [공식문서]
   - 객체 형태
   - 객체 속성 내용 : type, 기타.... (type은 반드시 필요하다!!!!)

@@ -68,7 +68,7 @@
 
 - <Provider store={만든 store}> ... <A컴포넌트 /> <B컴포넌트> ... </Proiveder>
 
-# 2. Reducer 생성 및 state 값 가져오기
+# 2. Reducer 생성 및 state 값 가져오기 [Redux/Reducer/ reducerIndex.js, numberReducer.js, stringReducer.js]
 
 2. Reducer 생성하기 (numberReducer.js, stringReducer.js)
 

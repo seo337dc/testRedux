@@ -8,8 +8,10 @@
   - combineReducers : 만든 reducer 함수들을 합치는 용 (Redux/Reducer/reducerIndex.js )
 
 - npm install react-redux --save
-  - useSelector : redux Store에 접근하여 state 값을 가져오는 함수 ( reducer를 호출) [Counter.js, CounterDetail.js]
-  - useDispatch : action을 reducer에 전달하는 함수 (action을 전달해야 store state 변경가능!!) [Counter.js, CounterDetail.js]
+  - useSelector : redux Store에 접근하여 state 값을 가져오는 함수 ( reducer를 호출)
+    [Counter.js, CounterDetail.js]
+  - useDispatch : action을 reducer에 전달하는 함수 (action을 전달해야 store state 변경가능!!)
+    [Counter.js, CounterDetail.js]
 
 ## 2) Redux를 구성하는 요소
 
@@ -102,6 +104,8 @@
 - useSelector( (state)=>{ return state.리듀서함수.객체 })
 
 블록) combineReducers : 여러개 reducer를 만들어 여러개의 state를 활용할 경우... 여러개의 reducer함수들을 하나로 합치는데 사용함.
+
+블록) useSelector를 선언한 컴포넌트만 redux에서 값을 가져 올 수 있다.
 
 # 3. Action /ActionCreator 생성 및 활용하기
 

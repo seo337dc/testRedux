@@ -5,7 +5,7 @@ import Main from "./Main";
 import * as serviceWorker from "./serviceWorker";
 
 import { createStore } from "redux";
-import rootReducer from "./Redux/Reducer/reducerIndex";
+import rootReducer from "./Redux/Reducer/reducerIndex"; //리듀서들을 combineReducer로 하나로 합친 최상위 리듀서
 
 import { Provider } from "react-redux";
 

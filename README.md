@@ -16,7 +16,7 @@
 - store
 
   - 저장 공간
-  - React 컴포넌트의 내부 state가 아닌 어딘가 아니보이는 저장공간에 state를 넣음
+  - React 컴포넌트의 내부 state가 아닌 어딘가 안보이는 저장공간에 state를 넣음
 
 - reducer :
 

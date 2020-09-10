@@ -23,3 +23,8 @@ export const decreaseAction = () => {
 export const increaseOtherAction = (number) => {
   return { type: "INCREASE_FIVE", data: number };
 };
+
+// type이 필요한 이유
+// dispatch 할 수를 실행하면 createStore에 넣었던 리듀서 함수들이 모두 실행된다.
+// 거기서 수정할 state를 구분하기 위해 type을 설정하는 것이다.
+// 그래서 type이름은 구분해주는 것이 좋다.

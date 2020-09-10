@@ -61,7 +61,7 @@
 
 1-3. Provider 객체를 하위 컴포넌트들을 감싼다. [에러 발생 : store 속성 내용 없어서 발생]
 
-- <Provider> ... <A컴포넌트 /> <B컴포넌트> ... </Proiveder>
+- <Provider > ... <A컴포넌트 /> <B컴포넌트> ... </Proiveder  >
 
 1-4. Provider 객체의 store 속성 값에 생성한 store를 넣는다, [이제 모든 컴포넌트들은 store에 접근이 가능함!]
 

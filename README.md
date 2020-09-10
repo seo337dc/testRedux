@@ -38,8 +38,7 @@
 
 - dispatch :
 
-  - action을 reducer에 전달하는 역할
-  - action객체를 만들었지만 reducer에 전달할 수 있는 방법
+  - action를 reducer에 전달하는 역할 (useDispatch)
 
 - 정리 :
   - 1. store에 값 가져오기 : Component -> reudcer -> store

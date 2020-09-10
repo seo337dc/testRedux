@@ -8,8 +8,8 @@
   - combineReducers : 만든 reducer 함수들을 합치는 용 (Redux/Reducer/index.js )
 
 - npm install react-redux --save
-  - useSelector : redux Store에 접근하여 state 값을 가져오는 함수 ( reducer를 호출)
-  - useDispatch : action을 reducer에 전달하는 함수 (action을 전달해야 store state 변경가능!!)
+  - useSelector : redux Store에 접근하여 state 값을 가져오는 함수 ( reducer를 호출) [Counter.js, CounterDetail.js]
+  - useDispatch : action을 reducer에 전달하는 함수 (action을 전달해야 store state 변경가능!!) [Counter.js, CounterDetail.js]
 
 ## 2) Redux를 구성하는 요소
 

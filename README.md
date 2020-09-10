@@ -5,7 +5,7 @@
 - npm install redux --save
 
   - createStore : store 생성 용 (index.js)
-  - combineReducers : 만든 reducer 함수들을 합치는 용 (Redux/Reducer/index.js )
+  - combineReducers : 만든 reducer 함수들을 합치는 용 (Redux/Reducer/reducerIndex.js )
 
 - npm install react-redux --save
   - useSelector : redux Store에 접근하여 state 값을 가져오는 함수 ( reducer를 호출) [Counter.js, CounterDetail.js]
@@ -69,7 +69,9 @@
 
 # 2. Reducer 생성 및 state 값 가져오기
 
-1. Reducer 생성하기 (numberReducer.js, stringReducer.js)
+2. Reducer 생성하기 (numberReducer.js, stringReducer.js)
+
+- 함수 파일
 
 2-1 reducer 함수를 만들고 export를 한다. [createStore에 넣기 위한 것]
 
